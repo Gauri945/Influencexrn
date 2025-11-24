@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from 'mongoose';  //require 
 
 const collaborationSchema = mongoose.Schema({
   influencer_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Influencer', required: true },

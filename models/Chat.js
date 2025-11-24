@@ -6,4 +6,4 @@ const chatSchema = new mongoose.Schema({
   text: { type: String, required: true }
 }, { timestamps: true });
 
-export default mongoose.model('Chat', chatSchema);
+export default mongoose.model('Chat', chatSchema);  // export the chat.js

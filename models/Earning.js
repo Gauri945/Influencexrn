@@ -13,4 +13,4 @@ const earningSchema = mongoose.Schema({
 }, { timestamps: true });
 
 const Earning = mongoose.model('Earning', earningSchema);
-export default Earning;
+export default Earning; // earning exported
